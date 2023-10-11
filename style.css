@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.kepala {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110%;
+    padding: 10px 20%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+body{
+    background-color: #031540;
+}
+
+.logo{
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 550;
+    margin-left: 35px;
+}
+
+.navbar a:hover{
+    color: #00abf0;
+}
+
+.home{
+    height: 100vh;
+    background: linear-gradient(-90deg, #031540 65%, #ffffff 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    height: 800px;
+}
+
+.gambar-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    background: #031540;
+    border-radius: 50%;
+    border: 20px solid #ffffff;
+    outline: 20px solid #031540;
+}
+
+.gambar-home img{
+    position: relative;
+    bottom: 64px;
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+.isi-home{
+    max-width: 600px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.isi-home h1{
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.isi-home h3{
+    font-size: 38px;
+    color: #00abf0;
+    padding-bottom: 10px;
+}
+
+.isi-home p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.home-link{
+    margin: 25px 0 40px;
+}
+
+.home-link a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 30%;
+    font-size: 30px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5;
+}
+
+.cv{
+    padding: 15px 30px;
+    background-color: #00abf0;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.home-link a:hover{
+    background: #00abf0;
+    color: #ffffff;
+    border-color: #00abf0;
+}
+
+#tentang{
+    margin-top: 220px;
+}
+
+.SAYA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.isi-tentang{
+    padding: 20px 22px;
+    color: #ffffff;
+    width: 750px;
+}
+.isi-tentang h1{
+    color: #00abf0;
+    font-size: 38px;
+    padding-bottom: 5px;
+}
+.photo{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 20px solid #00abf0;
+    background-color: #ffffff ;
+    margin-top: 90px;
+    margin-right: 90px;
+    transform: rotate(45deg);
+}
+
+#kemampuan{
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+}
+
+.myskill {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 5%;
+    padding-bottom: 3%;
+
+}
+  
+.skill-container {
+    transition: transform 0.5s;
+    width: 250px;
+    height: 290px;
+    margin: 0 5% 0 5%;
+    border: 2px solid #031540;
+    border-bottom-left-radius: 24%;
+    border-top-right-radius: 24%;
+    padding-top: 3%;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+.skill-container:hover{
+    transform: scale(1.1);
+    background-color: #00abf0;
+    color: #ffffff;
+    border: #00abf0;
+}
+  
+.skill-box {
+    text-align: center;
+    
+}
+.skill-box i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #456b2e;
+}
+.skill-box h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+  
+.skill-box p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+#heading{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    padding-top: 10px;
+    font-size: 44px;
+    color: #ffffff;
+}
+#Contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-top: 5%;
+}
+.kontak1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 7px;
+    margin-bottom: 9px;
+    color: #ffffff;
+}
+.kontak-isi{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.kontak-isi h4, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.kontak1 a{
+    border-radius: 5px;
+    background-color: #00abf0;
+    color: #ffffff;
+    height: 40px;
+    width: fit-content;
+    padding: 12px 12px 12px 12px;
+    font-size: 18px;
+}
+.kontak{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.kontak input, textarea{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.tombol{
+    width: 100%;
+    border: none;
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tombol:hover{
+    background-color: #00abf0;
+    color: #ffffff;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: #333;
+    max-width: 100%;
+}
+
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.link-footer li{
+    margin-top: 5px;
+}
+
+.link-footer li a{
+    padding-left: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #00abf0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.medsos a{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 15px;
+    padding: 7px 7px 5px 7px;
+    text-align: none;
+    color: #00abf0;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.medsos a:hover{
+    background-color: #00abf0;
+    color: #ffffff;
+}
+
+.cp h4{
+    padding: 12px 0 4px 12px;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    margin-top: 10px;
+}
